@@ -12,12 +12,12 @@ const Welcome = () => {
             <View style={styles.container}>
                 <Text style={styles.welcomeTxt(COLORS.black, SIZES.xSmall)}>
                     {""}
-                    Most Searched
+                    Ecommerce
                 </Text>
-                <Text style={styles.welcomeTxt(COLORS.primary, 0)}>
+                {/* <Text style={styles.welcomeTxt(COLORS.primary, 0)}>
                     {""}
                     Quality Products
-                </Text>
+                </Text> */}
             </View>
             <View style={styles.searchContainer}>
                 <TouchableOpacity>
