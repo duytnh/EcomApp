@@ -1,0 +1,2 @@
+Thư mục chứa dữ liệu file frontend sử dụng ngôn ngữ React Native
+Chủ đề app: Thiết kế giao diện app thương mại điện tử với chủ đề "Nội thất"
