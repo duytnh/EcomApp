@@ -3,7 +3,7 @@ import { COLORS, SIZES } from "../../constants";
 
 const styles = StyleSheet.create({
     container: {
-        width: 182,
+        width: 172,
         height: 240,
         marginEnd: 22,
         borderRadius: SIZES.medium,
@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     },
     imageContainer: {
         flex: 1,
-        width: 170,
+        width: 160,
         marginLeft: SIZES.small / 2,
         marginTop: SIZES.small / 2,
         borderRadius: SIZES.small,
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     },
     title: {
         fontFamily: 'Bold',
-        fontSize: SIZES.large,
+        fontSize: SIZES.large - 2,
         marginBottom: 2
     },
     supplier: {

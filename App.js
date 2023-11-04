@@ -5,7 +5,7 @@ import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import BottomTabNavigation from './navigation/BottomTabNavigation';
 import { StatusBar } from 'react-native';
-import { Cart, ProductDetails } from './screens';
+import { Cart, Favorites, LoginPage, NewRivals, Orders, ProductDetails, SignUp } from './screens';
 
 const Stack = createNativeStackNavigator();
 export default function App() {
@@ -50,6 +50,31 @@ export default function App() {
         <Stack.Screen
           name='ProductDetails'
           component={ProductDetails}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name='ProductList'
+          component={NewRivals}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name='Login'
+          component={LoginPage}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name='Orders'
+          component={Orders}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name='Favorites'
+          component={Favorites}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name='SignUp'
+          component={SignUp}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
